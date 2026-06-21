@@ -1,0 +1,140 @@
+export const portfolioData = {
+  personal: {
+    name: "Aakash Lovanshi",
+    title: "MERN Stack Developer",
+    subtitle: "Building Scalable Web Applications with Modern Technologies",
+    bio: "I'm a passionate MERN Stack Developer with 6 months of hands-on experience at eSkill. I specialize in building scalable, user-friendly web applications using React, Node.js, and MongoDB. I love clean code, great UI, and solving real-world problems.",
+    email: "lovanshiaakash5@gmail.com",
+    phone: "+91 9589535135",
+    location: "Indore, MP, India",
+    resumeLink: "https://drive.google.com/file/d/1i4_l0camkdIxkMu0In3PeuDMfUr0QYCg/view?usp=sharing", // Add resume PDF link
+  },
+
+  social: {
+    github: "https://github.com/Aakashlov098",
+    linkedin: "https://www.linkedin.com/in/aakash-lovanshi-14a03431a/",
+    twitter: "https://x.com/Ak9Creators",
+  },
+
+  skills: {
+    frontend: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
+    backend: ["Node.js", "Express.js", "REST APIs"],
+    database: ["MongoDB", "Mongoose"],
+    tools: ["Git", "GitHub", "Postman", "VS Code", "Vite"],
+    other: ["API Integration", "Communication"],
+  },
+
+  experience: [
+    {
+      id: 1,
+      position: "MERN Stack Developer Intern",
+      company: "E-Skills Web LLP",
+      location: "Indore, MP, India",
+      startDate: "July 2025",
+      endDate: "December 2025",
+      duration: "6 months",
+      description: [
+        "Developed Imeginex, an AI-powered social media platform with image generation, user feeds, JWT authentication, and real-time interactions using React.js, Node.js, and MongoDB",
+        "Built responsive and interactive UIs using React.js, JavaScript, HTML5, and Tailwind CSS",
+        "Integrated third-party APIs and implemented data fetching mechanisms for dynamic content delivery",
+        "Collaborated with team members to deliver quality features on time, consistently completing all assigned tasks",
+        "Successfully completed 6-month internship with consistent performance and on-time delivery",
+      ],
+    },
+    {
+      id: 2,
+      position: "Customer Support & Tele-Sales Executive",
+      company: "SKGK Innovations",
+      location: "Indore, MP, India",
+      startDate: "February 2026",
+      endDate: "Present",
+      duration: "Part-Time",
+      description: [
+        "Handled inbound customer calls for Ayurvedic and wellness medicine products, providing accurate product information and resolving customer queries",
+        "Converted leads into orders through effective communication of product benefits and value proposition",
+        "Collected and managed customer details (name, age, address, contact) for accurate order booking and follow-ups",
+        "Managed customer complaints professionally, ensuring timely resolution and maintaining high customer satisfaction levels",
+        "Developed strong communication and persuasion skills while maintaining professional demeanor during customer interactions",
+      ],
+    },
+  ],
+
+  projects: [
+    {
+      id: 1,
+      title: "Imeginex – AI Social Media Platform",
+      description: "Built an AI-powered social media platform where users can generate images from prompts, share posts, follow creators, like content, and explore a dynamic feed.",
+      technologies: ["React.js", "Node.js", "MongoDB", "JWT", "AI Image API"],
+      features: ["User Authentication", "Image Generation", "Social Feed", "Real-time Interactions"],
+      liveLink: "https://imeginex.onrender.com/",
+      githubLink: "https://github.com/Aakashlov098/Imeginex",
+      image: "🤖",
+    },
+    {
+      id: 2,
+      title: "Prep-Me – Interview Preparation Platform",
+      description: "Built an interview prep platform with personalized learning paths and adaptive content delivery for aspiring developers.",
+      technologies: ["React.js", "Node.js", "JWT", "REST API"],
+      features: ["User Authentication", "Adaptive Content", "Learning Paths", "Progress Tracking"],
+      liveLink: "https://prep-me-gamma.vercel.app/",
+      githubLink: "https://github.com/Aakashlov098/Prep-Me  ",
+      image: "📚",
+    },
+    {
+      id: 3,
+      title: "Pokemon Game – Interactive Battle System",
+      description: "Created an interactive Pokemon battle game with turn-based combat system, health tracking, and smooth attack animations.",
+      technologies: ["React.js", "JavaScript", "CSS", "HTML"],
+      features: ["Turn-based Combat", "Health Tracking", "Attack Animations", "Game State Management"],
+      liveLink: "https://pokemon-game-eight-pi.vercel.app/",
+      githubLink: "https://github.com/Aakashlov098/Pokemon-Game",
+      image: "🎮",
+    },
+    {
+      id: 4,
+      title: "GitHub Finder – User Search & Profile Discovery",
+      description: "Built a GitHub user search application that allows users to search for GitHub profiles, view detailed user information, repositories, followers, and following details with a clean, responsive interface.",
+      technologies: ["React.js", "Vite", "GitHub API", "CSS", "JavaScript"],
+      features: ["User Search", "Profile Details", "Repository Listing", "Follower Stats", "Responsive Design"],
+      liveLink: "https://github-finder-gules-pi.vercel.app/",
+      githubLink: "https://github.com/Aakashlov098/Github-Finder",
+      image: "🔍",
+    },
+    {
+  id: 5,
+  title: "Hoo-Bank – Modern Banking Landing Page",
+  description: "Designed and developed a modern, responsive banking website landing page for Hoo-Bank, a contemporary financial platform. Implemented a professional UI from Figma design with smooth scrolling, interactive elements, and fully responsive layout for all devices.",
+  technologies: ["HTML5", "CSS3", "Responsive Design", "Web Layout"],
+  features: ["Responsive Navigation", "Hero Section", "Service Cards", "Feature Showcase", "Call-to-Action Sections", "Mobile Optimized"],
+  liveLink: "https://figma-file-hoo-bank.vercel.app/",
+  githubLink: "https://github.com/Aakashlov098/Figma-file-Hoo-Bank",
+  image: "🏦",
+},
+{
+  id: 6,
+  title: "My Project Showcase – Portfolio Hub",
+  description: "Created a comprehensive portfolio website that serves as a centralized hub showcasing all personal projects. Features organized categorization of website clones, UI designs, and Figma implementations with direct links to live demos and source code.",
+  technologies: ["HTML5", "CSS3", "Responsive Design"],
+  features: ["Project Directory", "Multiple Categories", "Live Project Links", "Source Code Links", "Clean Navigation", "Responsive Layout"],
+  liveLink: "https://my-project-showcase-liard.vercel.app/",
+  githubLink: "https://github.com/Aakashlov098/My-project-showcase",
+  image: "📂",
+},
+  ],
+
+  achievements: [
+    "Successfully completed 6-month MERN Stack Internship at eSkill with consistent performance",
+    "Built and deployed 3+ full-stack web applications with real-world functionality on Vercel",
+    "Active contributor to GitHub open-source community with multiple project repositories",
+    "Participated in online coding challenges with strong focus on Data Structures and Algorithms",
+  ],
+
+  education: [
+    {
+      degree: "Bachelor of Computer Applications (BCA)",
+      institution: "Makhanlal Chaturvedi National University of Journalism and Communication",
+      location: "Bhopal, MP",
+      year: "2026",
+    },
+  ],
+};
