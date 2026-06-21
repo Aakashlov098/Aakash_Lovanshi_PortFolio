@@ -4,7 +4,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 16px; /* ← यह add करो */
+  font-size: 16px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -16,9 +16,9 @@ html {
 body {
   font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400; /* ← 500 की जगह 400 करो! */
+  font-weight: 400;  /* ← 500 की जगह 400 */
   font-style: normal;
-  font-size: 1rem; /* ← यह भी add करो */
+  font-size: 1rem;
 }
 
 * {

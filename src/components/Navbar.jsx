@@ -75,7 +75,7 @@ export default function Navbar({ personalData }) {
                   key={item.name}
                   href={item.href}
                   onClick={(e) => handleLinkClick(e, item.href)}
-                  className={`text-lg font-medium transition-all duration-300 relative py-1 hover:text-zinc-100 ${
+                  className={`text-base font-medium transition-all duration-300 relative py-1 hover:text-zinc-100 ${
                     activeSection === item.href.substring(1) 
                       ? 'text-zinc-100' 
                       : 'text-zinc-400'
